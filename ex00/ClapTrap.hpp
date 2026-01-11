@@ -6,7 +6,7 @@
 /*   By: majkijew <majkijew@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/10 16:57:47 by majkijew          #+#    #+#             */
-/*   Updated: 2026/01/11 02:06:34 by majkijew         ###   ########.fr       */
+/*   Updated: 2026/01/11 17:33:50 by majkijew         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ class ClapTrap
 		int getEnergyPoint( void ) const ;
 		int getDemage( void ) const ;
 
-		void attack(const std::string &target);
+		void attack(const std::string& target);
 		void takeDemage(unsigned int amount);
 		void beRepaired(unsigned int amount);
 };
