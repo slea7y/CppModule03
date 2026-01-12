@@ -6,7 +6,7 @@
 /*   By: majkijew <majkijew@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 20:52:51 by majkijew          #+#    #+#             */
-/*   Updated: 2026/01/12 00:03:44 by majkijew         ###   ########.fr       */
+/*   Updated: 2026/01/12 01:12:53 by majkijew         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,14 @@ ScavTrap::ScavTrap(std::string name) {
 // std::cout << "ClapTrap copy constructor called\n";
 // std::cout << "Assignment operator called\n";
 // std::cout << "ClapTrap destructor\n";
+
+// ScavTrap::ScavTrap( const ScavTrap& other) {
+    
+// }
+
+// ScavTrap &ScavTrap::operator=( const ScavTrap& other) {
+
+// }
 
 ScavTrap::~ScavTrap() {
     std::cout << "ScavTrap destructor\n";
